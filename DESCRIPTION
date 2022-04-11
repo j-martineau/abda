@@ -1,0 +1,14 @@
+Package: abda
+Title: Angle-based dimensionality assessment
+Version: 0.0.0.9000
+Authors@R:
+    person("Joseph", "Martineau", "A.", "martineauj@gmail.com",
+           role = c("aut", "cre"))
+Description: A suite of functions to simulate multidimensional data (either item score data or continuous variable data), run factor analysis on real or simulated data, run MIRT on real or simulated data, process results of factor analyses and MIRT, and visualize the results in a highly-detailed scree-like plot to assess dimensionality and identify items/variables contributing to each dimension.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Imports:
+    tidyverse, tibble, scales, clipr, MASS
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
